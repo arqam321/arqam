@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <div style="background-color: rgb(193, 0, 0);"><marquee scrollamount="7px">mobile no.7400167331</marquee></div>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini E-comerce app made by arqam bepari</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Mini E-Commerce App</h1>
+        <nav>
+           <div><a href="#products">Products</a></div> 
+            <a href="#cart">Cart (<span id="cartCount">0</span>)</a>
+        </nav>
+    </header>
+    <center>
+    <main>
+      <div><section id="products">
+        <h2>Product Listings</h2>
+        <div id="productContainer" class="product-container">
+            <!-- Products will be dynamically added here -->
+        </div>
+    </section>
+
+    <div><section id="cart">
+        <h2>Your Cart</h2>
+        <img src="61tgBVzr08S.jpg" height="250px" width="250px">
+        <ul id="cartItems"  class="cart-items"><br>
+            <button>add to cart</button></div>
+            <!-- Cart items will be dynamically added here -->
+        </ul>
+        <p>Total: $<span id="totalAmount">35.00</span></p>
+    <div></section><br><br>
+    <section id="cart">
+        
+        <img src="a16c92e22041e55e77d415cbc43dd4ff.jpg" height="250px" width="250px">
+        <ul id="cartItems"  class="cart-items"> <br>
+            <button>add to cart</button></div>
+            <!-- Cart items will be dynamically added here -->
+        </ul>
+        <p>Total: $<span id="totalAmount">30.00</span></p>
+    <div></section><br><br>
+    <section id="cart">
+        
+        <img src="apple-laptop-lineup-20220825-3-medium.jpg" height="250px" width="250px">
+        <ul id="cartItems"  class="cart-items"><br>
+            <button>add to cart</button></div>
+            <!-- Cart items will be dynamically added here -->
+        </ul>
+        <p>Total: $<span id="totalAmount">950.00</span></p>
+    <div></section><br><br>
+    <section id="cart">
+        
+        <img src="download.jpeg" height="250px" width="250px">
+        <ul id="cartItems"  class="cart-items"><br>
+            <button>add to cart</button></div>
+            <!-- Cart items will be dynamically added here -->
+        </ul>
+        <p>Total: $<span id="totalAmount">400.00</span></p>
+    </section><br><br></div>  
+    </main>
+    </center>
+    <h1>Contact Form</h1>
+    <form id="contactForm" method="POST" action="/submit-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+        <input type="submit"><br><br>
+<a href="dd.html">your order</a><br>
+    <center>
+    </form>
+    
+    <footer>
+        <p>&copy; 2024 Mini E-Commerce App</p>
+    </footer>
+    <script src="atyle.js"></script>  
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Add to Cart</title>
+    <script>
+        function addToCart(item) {
+            alert(item + ' added to cart!');
+        }
+    </script>
+</head>
+<body>
+    <h1>Product Page</h1>
+    <div>
+        <h2>Product Name</h2>
+        <p>Price: $10.00</p>
+        <button onclick="addToCart('Product Name')">Add to Cart</button>
+    </div>
+</body>
+</html>
+
